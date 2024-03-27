@@ -1,0 +1,27 @@
+.relative {
+    background-color: orange;
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+
+.absolute {
+    background-color: magenta;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.fixed {
+    background-color: navajowhite;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+}
+
+sticky {
+    background-color: yellow;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0px;
+}

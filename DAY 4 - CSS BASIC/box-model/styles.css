@@ -1,0 +1,42 @@
+.box1 {
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+}
+
+.box2 {
+    padding: 10px 20px 30px 40px;
+}
+
+.box3 {
+    margin-top: 5px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+    margin-left: 50px;
+}
+
+.box4 {
+    margin: 80px;
+    padding: 50px;
+}
+
+
+.box {
+    border: 2px sandybrown solid;
+}
+
+.mix-borders {
+    background-color: burlywood;
+    border-style: dotted dashed solid double;
+    border-width: 7px;
+    border-color: yellow;
+}
+
+.circle-container {
+    background-color: crimson;
+    height: 35px;
+    width: 35px;
+    border: 50%;
+    color: white;
+}

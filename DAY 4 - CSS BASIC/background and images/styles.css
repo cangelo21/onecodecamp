@@ -1,0 +1,28 @@
+.color-example {
+    color: red;
+    background-color: aqua;
+}
+
+.background-example {
+    background-color: #ffaa00;
+    color: rgb(171, 0, 202);
+}
+
+.background-position-example {
+    background-image: url("https://media.istockphoto.com/id/1672317574/photo/ama-dablam-mountain-peak.webp?b=1&s=170667a&w=0&k=20&c=Ea8yDEHpUemrRuMZUKGPDBE11YTWVksIupMN8FkEBf8=");
+    height: 300px;
+    width: 500px;
+    background-color: aqua;
+    color: aliceblue;
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+
+.opacity-example {
+    background-color: rgba(225, 0, 0, 0.1);
+}
+
+.img-name {
+    height: 200px;
+    width: 200px;
+}

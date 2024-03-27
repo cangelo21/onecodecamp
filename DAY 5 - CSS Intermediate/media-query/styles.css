@@ -1,0 +1,100 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333333;
+    padding: 20px;
+}
+
+h1 {
+    color: #ffffff;
+    margin: 0;
+}
+
+section {
+    padding: 50px;
+    background-color: #f1f1f1;
+}
+
+footer {
+    background-color: #333333;
+    padding: 10px;
+    text-align: center;
+}
+
+footer p {
+    color: #ffffff;
+    font-size: 12px;
+    margin: 0;
+}
+  
+@media screen and (max-width: 480px) {
+    h1{
+        color: green;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 769px){
+    h1{
+        color: red;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px){
+    h1{
+        color: violet
+    }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1200px){
+    h1{
+        color: cyan
+    }
+}
+
+@media screen and (min-width: 1025px), (orientation: landscape) {
+    h1{
+        color: blueviolet
+    }
+}
+
+@media screen and (min-width: 1201px){
+    h1{
+        color: lightcyan
+    }
+}
+
+/*@media print {
+    header {
+        background-color: red;
+        padding: 20px;
+    }
+    footer {
+        background-color: yellowgreen;
+        padding: 10px;
+        text-align: center;
+    }
+} */
+
+@media (orientation: landscape) {
+    h1{
+        color: greenyellow
+    }
+}
+
+
+  /* Screen */
+  /* Print */
+  /* Speech */
+
+
+  /* Breakpoint */
+  /* Mobile - < 481px */
+  /* 481px - 768px */
+  /* 769px - 1024px */
+  /* 1025px - 1200px */
+  /* 1201px - higher */

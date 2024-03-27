@@ -1,0 +1,25 @@
+/* .flexContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+} */
+
+.flexContainer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* .flexItem1 { 
+    flex-grow: 2;
+    flex-shrink: 2;
+}
+
+.flexItem2 {
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+.flexItem3 {
+    flex-grow: 1;
+    flex-shrink: 1;
+}*/

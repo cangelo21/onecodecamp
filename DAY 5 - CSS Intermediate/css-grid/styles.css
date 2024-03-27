@@ -1,0 +1,54 @@
+/* auto */
+.gridContainer {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 100px 150px 100px;
+}
+
+/* using px */
+/*.gridContainer {
+    display: grid;
+    grid-template-columns: 300px 250px 100px 100px;
+    grid-template-rows: auto;
+} */
+
+/* using percentage */
+/* .gridContainer {
+    display: grid;
+    grid-template-columns: 50% 20% 15% 15%;
+    grid-template-rows: auto;
+} */
+
+/* using fractions */
+.gridContainer {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: auto;
+}
+
+/* using fractions */
+/*.gridContainer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    gap: 2rem;
+    font-size: 18;
+} */
+
+/* 
+16px
+1rem
+1em
+ */
+
+
+.gridContainer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+}
+
+.gridItem2 {
+    grid-area: 1/1/1/1;
+}
+
